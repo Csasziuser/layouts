@@ -46,6 +46,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        frame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentToFrame = new Intent(MainActivity.this, FrameActivity.class);
+                startActivity(intentToFrame);
+            }
+        });
+
 
 
 
